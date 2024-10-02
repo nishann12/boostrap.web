@@ -1,0 +1,17 @@
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+.card-img-top, .object-fit-contain {
+    object-fit: contain;
+}
+.card img{
+    max-height: 500px !important;
+}
